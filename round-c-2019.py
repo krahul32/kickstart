@@ -22,7 +22,7 @@ while(tc):
 
     for i in dir_list:
         if i == 'N':
-            while (arr[CR][CC]!=0):              #moving towards NORTH untill we get a non visited place.
+            while (arr[CR][CC]!=0):              
                 (CR,CC) = (CR-1,CC)              #to move NORTH, we decrease row by 1. Column would be same.
             arr[CR][CC] = 1
         elif i == 'S':
